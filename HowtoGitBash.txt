@@ -20,5 +20,12 @@ git status
 git commit -m "..."
 - -m means message and between "" you can write someting"
 
+git push
+- uploads all your changes
+
 git pull
-- from the .git directory downloads all new files in the local folder
+- from the .git directory downloads all new files including the pushed
+changes of the others in the local folder
+- to beginn with, go in the .git folder and get up to datye before start working
+
+If you forgot to add -m to commit,
