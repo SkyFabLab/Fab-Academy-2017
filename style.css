@@ -12,7 +12,7 @@ body {
 
 a {
 	text-decoration:none;
-	color:red;
+	color:blue;
 }
 
 h1 , h2 , h3 {margin:0;}
@@ -24,27 +24,36 @@ h1 , h2 , h3 {margin:0;}
 }
 
 #header {
-	background-color:#BDBDBD;
-	font-family:Arial;
-	color: #6a19a0;
+	width:100%;
+	background-image: url('file:///C:/Users/wehrfritzm/Fab-Academy-2017/Pictures/FabLab_crop.jpg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100%;
+	background-color: #BDBDBD;
+	font-family:Impact;
+	text-shadow: 2px 2px #ffffff;
+	font-weight: bold;
+	color: #333399;
 	text-align:center;
-	padding: 30px;
-	position:fixed;
+	padding:30px;
+
 }
 
 #navigation {
 	float:top;
 }
 
-#navigation ul {
-    list-style-type: none;
+#navigation ul 
+{	list-style-type: none;
     margin: 0;
     padding: 0;
 	overflow:hidden;
-	background-color:#333333;
-	position: fixed;;
-    width: 100%;
+	background-color:#333399;
+	width: 100%;
+	/*position: fixed;*/
 }
+	
+
 
 li {
     display: inline;
@@ -60,11 +69,11 @@ li a {
 }
 /*changes the color, while hovering the mouse and keeps color when active*/
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #000066;
 }
 /*adds the class active*/
 .active {
-    background-color: #4CAF50;
+    background-color: #0066ff;
 	font-weight:bold;
 }
 #navigation .selected {
