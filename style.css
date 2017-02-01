@@ -36,7 +36,6 @@ h1 , h2 , h3 {margin:0;}
 	color: #333399;
 	text-align:center;
 	padding:100px;
-
 }
 
 #navigation {
@@ -53,7 +52,7 @@ h1 , h2 , h3 {margin:0;}
 	/*position: fixed;*/
 }
 	
-
+#main ul.a {list-style-type: circle;}
 
 li {
     display: inline;
